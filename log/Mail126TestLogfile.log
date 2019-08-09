@@ -1,0 +1,936 @@
+2018-11-02 01:04:01 TestSendMailWithAttachment.py[line:123] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 20, in TestSendMailAndCreateContacts
+    if i.value.lower()=='y':
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+2018-11-02 01:09:21 TestSendMailWithAttachment.py[line:123] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 13, in TestSendMailAndCreateContacts
+    isExecuteColumn= excelObj.getColumn(caseSheet,testCase_isExcute)
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\util\ParseExcel.py", line 74, in getColumn
+    raise e
+TypeError: 'generator' object has no attribute '__getitem__'
+
+2018-11-02 01:12:18 TestSendMailWithAttachment.py[line:123] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 20, in TestSendMailAndCreateContacts
+    if i.value.lower()=='y':
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+2018-11-02 01:13:07 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 21, in TestSendMailAndCreateContacts
+    if i.value.lower()=='y':
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+2018-11-02 01:13:42 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 21, in TestSendMailAndCreateContacts
+    if i.value.lower()=='y':
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+2018-11-02 01:16:11 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 13, in TestSendMailAndCreateContacts
+    isExecuteColumn= excelObj.getColumn(caseSheet,testCase_isExcute)
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\util\ParseExcel.py", line 74, in getColumn
+    raise e
+TypeError: 'generator' object has no attribute '__getitem__'
+
+2018-11-02 01:17:29 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 21, in TestSendMailAndCreateContacts
+    if i.value.lower()=='y':
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+2018-11-02 01:18:42 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 21, in TestSendMailAndCreateContacts
+    if i.value.lower()=='y':
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+2018-11-02 01:26:23 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 21, in TestSendMailAndCreateContacts
+    if i.value.lower()=='y':
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+2018-11-02 01:29:05 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 25, in TestSendMailAndCreateContacts
+    print("----"%stepSheetName)
+TypeError: not all arguments converted during string formatting
+
+2018-11-02 01:29:49 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 01:29:49 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 98, in TestSendMailAndCreateContacts
+    capturePic=capture_screen()
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\action\PageAction.py", line 167, in capture_screen
+    raise e
+AttributeError: 'NoneType' object has no attribute 'get_screenshot_as_file'
+
+2018-11-02 01:39:57 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 01:43:29 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 01:44:01 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-02 01:44:05 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-02 01:44:05 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-02 01:44:10 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-02 01:44:17 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-02 01:44:19 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-02 01:44:19 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-02 01:44:19 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-02 01:44:19 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-02 01:44:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 01:44:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 01:44:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-02 01:44:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 01:44:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 01:44:55 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-02 01:44:55 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 33, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 68, in dataDriverFun
+    raise e
+TypeError: 'ParseExcel' object does not support indexing
+
+2018-11-02 01:52:08 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 01:52:16 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-02 01:52:27 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-02 01:52:27 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-02 01:52:32 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-02 01:52:32 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-02 01:52:33 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-02 01:52:33 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-02 01:52:33 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-02 01:52:33 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-02 01:53:03 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 01:53:03 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 01:53:03 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-02 01:53:08 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 01:53:09 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 01:53:09 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 33, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 68, in dataDriverFun
+    raise e
+NameError: global name 'logging' is not defined
+
+2018-11-02 01:57:27 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 01:57:37 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-02 01:57:43 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-02 01:57:44 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-02 01:57:49 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-02 01:57:49 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-02 01:57:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-02 01:57:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-02 01:57:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-02 01:57:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-02 01:58:20 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 01:58:20 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 01:58:20 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-02 01:58:25 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 01:58:25 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 01:58:26 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-02 01:58:26 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 33, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 68, in dataDriverFun
+    raise e
+TypeError: 'ParseExcel' object does not support indexing
+
+2018-11-02 02:03:07 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 02:03:15 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-02 02:03:21 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-02 02:03:22 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-02 02:03:27 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-02 02:03:27 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-02 02:03:27 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-02 02:03:27 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-02 02:03:28 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-02 02:03:28 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-02 02:03:59 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:03:59 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:03:59 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-02 02:04:04 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:04:05 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:06:13 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-02 02:12:23 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 02:12:33 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-02 02:12:39 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-02 02:12:39 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-02 02:12:44 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-02 02:12:44 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-02 02:12:45 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-02 02:12:45 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-02 02:12:45 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-02 02:12:45 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-02 02:13:15 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:13:15 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:13:15 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-02 02:13:21 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:13:21 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:13:21 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-02 02:13:21 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-02 02:13:21 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-02 02:13:21 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-02 02:13:21 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-02 02:13:21 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 33, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 68, in dataDriverFun
+    raise e
+TypeError: cell() got an unexpected keyword argument 'coordinate'
+
+2018-11-02 02:25:08 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 02:25:16 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:/PythonWork/KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 107, in TestSendMailAndCreateContacts
+    writeTestResult(stepSheet, step, "caseStep", "pass")
+  File "D:/PythonWork/KeyWordsAndDataDrivenFrameWork\testScripts\WriteTestResult.py", line 42, in writeTestResult
+    logging.debug(u"写excel出错%s"%traceback.print_exc())
+NameError: global name 'logging' is not defined
+
+2018-11-02 02:26:09 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 02:26:19 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-02 02:26:25 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-02 02:26:26 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-02 02:26:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-02 02:26:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-02 02:26:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-02 02:26:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-02 02:26:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-02 02:26:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-02 02:27:02 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:27:02 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:27:02 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-02 02:27:07 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:27:07 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:27:07 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-02 02:27:07 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-02 02:27:07 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-02 02:27:08 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-02 02:27:08 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-02 02:27:08 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 33, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 68, in dataDriverFun
+    raise e
+TypeError: cell() got an unexpected keyword argument 'coordinate'
+
+2018-11-02 02:28:36 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 02:29:03 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 02:29:12 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-02 02:29:18 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-02 02:29:18 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-02 02:29:23 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-02 02:29:24 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-02 02:29:24 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-02 02:29:24 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-02 02:29:24 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-02 02:29:25 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-02 02:29:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:29:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:29:56 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-02 02:30:01 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:30:01 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:30:09 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-02 02:36:57 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-02 02:37:39 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-02 02:37:57 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-02 02:39:38 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-02 02:46:43 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 02:46:50 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 107, in TestSendMailAndCreateContacts
+    writeTestResult(stepSheet, step, "caseStep", "pass")
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\WriteTestResult.py", line 42, in writeTestResult
+    logging.debug(u"写excel出错%s"%traceback.print_exc())
+NameError: global name 'logging' is not defined
+
+2018-11-02 02:47:19 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-02 02:47:27 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-02 02:47:45 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-02 02:47:45 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-02 02:47:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-02 02:47:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-02 02:47:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-02 02:47:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-02 02:47:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-02 02:47:51 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-02 02:48:21 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:48:21 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:48:21 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-02 02:48:26 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-02 02:48:26 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-02 02:48:26 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-02 02:48:26 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-02 02:48:28 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-02 02:48:28 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-02 02:48:28 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-02 02:48:28 TestSendMailWithAttachment.py[line:124] DEBUG 程序本身发生异常
+Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 33, in TestSendMailAndCreateContacts
+    result = CreateContacts.dataDriverFun(dataSheetObj,stepSheetObj)
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\CreateContacts.py", line 68, in dataDriverFun
+    raise e
+TypeError: cell() got an unexpected keyword argument 'coordinate'
+
+2018-11-06 22:05:51 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-06 22:06:21 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-06 22:06:28 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-06 22:06:28 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-06 22:06:33 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-06 22:06:34 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-06 22:06:34 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-06 22:06:34 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-06 22:06:34 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-06 22:06:34 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-06 22:07:04 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-06 22:07:04 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-06 22:07:04 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-06 22:07:10 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-06 22:07:10 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-06 22:07:10 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-06 22:07:10 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:07:10 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:07:10 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:07:10 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:07:10 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:07:10 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:07:11 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:07:11 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:07:11 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:07:11 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:07:13 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:07:13 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:07:13 CreateContacts.py[line:20] INFO 开始添加联系人'name2@qq.com'
+2018-11-06 22:07:13 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:07:13 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:07:14 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:07:14 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:07:14 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:07:14 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:07:14 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:07:14 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:07:14 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:07:14 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:07:16 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:07:16 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:07:17 CreateContacts.py[line:20] INFO 开始添加联系人'name3@qq.com'
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:07:17 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:07:18 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:07:20 CreateContacts.py[line:20] INFO 开始添加联系人'name4@qq.com'
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:07:20 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:07:21 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:07:21 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:07:21 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:07:23 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:07:23 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:07:23 CreateContacts.py[line:20] INFO 开始添加联系人'name5@qq.com'
+2018-11-06 22:07:23 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:07:23 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:07:23 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:07:23 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:07:23 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:07:24 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:07:24 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:07:24 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:07:24 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:07:24 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:07:26 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:07:26 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:07:26 CreateContacts.py[line:20] INFO 开始添加联系人'name6@qq.com'
+2018-11-06 22:07:26 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:07:26 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:07:27 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:07:27 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:07:27 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:07:27 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:07:27 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:07:27 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:07:27 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:07:27 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:07:29 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:07:29 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:07:29 CreateContacts.py[line:20] INFO 开始添加联系人'name7@qq.com'
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:07:30 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:07:31 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:07:33 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:07:33 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:07:33 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'发送带附件的邮件'
+2018-11-06 22:07:33 TestSendMailWithAttachment.py[line:105] INFO 步骤'1'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    点击首页('click','xpath',u'//div[.='首页']')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:33 TestSendMailWithAttachment.py[line:105] INFO 步骤'2'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    判断"写信"按钮是否在页面可见('waitVisibilityOfElementLocated','xpath',u'//span[text()='写 信']')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:33 TestSendMailWithAttachment.py[line:105] INFO 步骤'3'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    点击写信按钮('click','xpath',u'//span[text()='写 信']')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:33 TestSendMailWithAttachment.py[line:105] INFO 步骤'4'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    输入('input_string','xpath',u'//div[contains(@id,'_mail_emailinput')]/input')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:34 TestSendMailWithAttachment.py[line:105] INFO 步骤'5'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    输入主题('input_string','xpath',u'//div[@aria-label='邮件主题输入框，请输入邮件主题']/input')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:34 TestSendMailWithAttachment.py[line:105] INFO 步骤'6'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2018-11-06 22:07:34 TestSendMailWithAttachment.py[line:105] INFO 步骤'7'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    输入上传附件链接('input_string','xpath',u'//div[@title='点击添加附件']/input[@size='1' and @type='file']')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:34 TestSendMailWithAttachment.py[line:105] INFO 步骤'8'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2018-11-06 22:07:34 TestSendMailWithAttachment.py[line:105] INFO 步骤'9'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    显式等待附件上传完毕('waitVisibilityOfElementLocated','xpath',u'//span[text()='上传完成']')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:34 TestSendMailWithAttachment.py[line:105] INFO 步骤'10'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    如果邮件正文的iframe框可见，然后进入该frame('waitFrameToBeAvailableAndSwitchToIt','xpath',u'//iframe[@tabindex=1]')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:35 TestSendMailWithAttachment.py[line:105] INFO 步骤'11'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    输入邮件正文('input_string','xpath',u'/html/body')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:35 TestSendMailWithAttachment.py[line:105] INFO 步骤'12'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2018-11-06 22:07:35 TestSendMailWithAttachment.py[line:105] INFO 步骤'13'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1
+    点击邮件发送('click','xpath',u'//header//span[text()='发送']')
+    ^
+SyntaxError: invalid syntax
+
+2018-11-06 22:07:35 TestSendMailWithAttachment.py[line:105] INFO 步骤'14'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2018-11-06 22:07:35 TestSendMailWithAttachment.py[line:105] INFO 步骤'15'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2018-11-06 22:07:36 TestSendMailWithAttachment.py[line:105] INFO 步骤'16'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2018-11-06 22:07:36 TestSendMailWithAttachment.py[line:122] INFO 共3 条用例，3条需要被执行，本次通过2条.
+2018-11-06 22:11:11 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-06 22:11:19 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-06 22:11:25 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-06 22:11:25 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-06 22:11:30 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-06 22:11:30 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-06 22:11:30 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-06 22:11:30 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-06 22:11:30 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-06 22:11:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-06 22:12:01 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-06 22:12:01 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-06 22:12:01 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-06 22:12:06 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-06 22:12:06 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-06 22:12:06 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-06 22:12:06 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:12:06 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:12:07 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:12:07 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:12:07 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:12:07 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:12:07 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:12:07 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:12:07 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:12:07 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:12:09 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:12:09 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:12:10 CreateContacts.py[line:20] INFO 开始添加联系人'name2@qq.com'
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:12:10 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:12:11 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:12:13 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:12:13 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:12:13 CreateContacts.py[line:20] INFO 开始添加联系人'name3@qq.com'
+2018-11-06 22:12:13 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:12:13 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:12:13 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:12:13 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:12:13 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:12:14 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:12:14 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:12:14 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:12:14 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:12:14 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:12:16 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:12:16 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:12:16 CreateContacts.py[line:20] INFO 开始添加联系人'name4@qq.com'
+2018-11-06 22:12:16 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:12:16 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:12:16 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:12:16 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:12:17 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:12:17 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:12:17 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:12:17 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:12:17 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:12:17 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:12:19 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:12:19 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:12:19 CreateContacts.py[line:20] INFO 开始添加联系人'name5@qq.com'
+2018-11-06 22:12:19 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:12:19 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:12:20 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:12:20 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:12:20 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:12:20 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:12:20 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:12:20 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:12:20 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:12:20 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:12:22 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:12:22 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:12:22 CreateContacts.py[line:20] INFO 开始添加联系人'name6@qq.com'
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:12:23 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:12:25 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:12:25 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:12:25 CreateContacts.py[line:20] INFO 开始添加联系人'name7@qq.com'
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:12:26 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:12:27 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:12:29 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:12:29 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:12:29 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'发送带附件的邮件'
+2018-11-06 22:12:29 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击首页'执行通过！
+2018-11-06 22:12:29 TestSendMailWithAttachment.py[line:110] INFO 步骤'判断"写信"按钮是否在页面可见'执行通过！
+2018-11-06 22:12:29 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击写信按钮'执行通过！
+2018-11-06 22:12:30 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入'执行通过！
+2018-11-06 22:12:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入主题'执行通过！
+2018-11-06 22:12:31 TestSendMailWithAttachment.py[line:105] INFO 步骤'等待几秒'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\action\PageAction.py", line 59, in sleep
+    raise e
+ValueError: invalid literal for int() with base 10: '2018-11-06 22:07:34'
+
+2018-11-06 22:12:31 TestSendMailWithAttachment.py[line:105] INFO 步骤'输入上传附件链接'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\action\PageAction.py", line 73, in input_string
+    raise e
+InvalidArgumentException: Message: File not found: 2018-11-06 22:07:34
+
+
+2018-11-06 22:12:31 TestSendMailWithAttachment.py[line:105] INFO 步骤'等待几秒'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\action\PageAction.py", line 59, in sleep
+    raise e
+ValueError: invalid literal for int() with base 10: '2018-11-06 22:07:34'
+
+2018-11-06 22:13:02 TestSendMailWithAttachment.py[line:105] INFO 步骤'显式等待附件上传完毕'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\action\PageAction.py", line 200, in waitVisibilityOfElementLocated
+    raise e
+TimeoutException: Message: 
+
+
+2018-11-06 22:13:02 TestSendMailWithAttachment.py[line:110] INFO 步骤'如果邮件正文的iframe框可见，然后进入该frame'执行通过！
+2018-11-06 22:13:02 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入邮件正文'执行通过！
+2018-11-06 22:13:02 TestSendMailWithAttachment.py[line:110] INFO 步骤'退出邮件正文的frame'执行通过！
+2018-11-06 22:13:02 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击邮件发送'执行通过！
+2018-11-06 22:13:03 TestSendMailWithAttachment.py[line:105] INFO 步骤'等待发送成功'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\action\PageAction.py", line 59, in sleep
+    raise e
+ValueError: invalid literal for int() with base 10: '2018-11-06 22:07:35'
+
+2018-11-06 22:13:03 TestSendMailWithAttachment.py[line:105] INFO 步骤'断言是否出现发送成功关键内容'执行失败,错误信息：Traceback (most recent call last):
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\testScripts\TestSendMailWithAttachment.py", line 95, in TestSendMailAndCreateContacts
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "D:\PythonWork\KeyWordsAndDataDrivenFrameWork\action\PageAction.py", line 89, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 2018-11-06 22:07:35 not found in page source
+
+2018-11-06 22:17:19 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-06 22:17:28 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-06 22:17:34 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-06 22:17:34 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-06 22:17:39 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-06 22:17:39 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-06 22:17:40 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-06 22:17:40 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-06 22:17:40 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-06 22:17:40 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-06 22:18:10 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-06 22:18:10 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-06 22:18:10 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-06 22:18:15 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-06 22:18:16 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-06 22:18:16 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-06 22:18:16 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:18:16 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:18:16 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:18:16 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:18:16 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:18:17 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:18:17 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:18:17 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:18:17 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:18:17 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:18:19 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:18:19 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:18:19 CreateContacts.py[line:20] INFO 开始添加联系人'name2@qq.com'
+2018-11-06 22:18:19 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:18:19 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:18:20 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:18:20 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:18:20 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:18:20 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:18:20 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:18:20 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:18:20 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:18:21 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:18:23 CreateContacts.py[line:20] INFO 开始添加联系人'name3@qq.com'
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:18:23 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:18:24 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:18:26 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:18:26 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:18:26 CreateContacts.py[line:20] INFO 开始添加联系人'name4@qq.com'
+2018-11-06 22:18:26 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:18:26 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:18:26 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:18:26 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:18:26 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:18:26 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:18:27 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:18:27 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:18:27 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:18:27 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:18:29 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:18:29 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:18:29 CreateContacts.py[line:20] INFO 开始添加联系人'name5@qq.com'
+2018-11-06 22:18:29 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:18:29 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:18:30 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:18:30 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:18:30 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:18:30 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:18:30 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:18:30 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:18:30 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:18:30 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:18:32 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:18:32 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:18:32 CreateContacts.py[line:20] INFO 开始添加联系人'name6@qq.com'
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:18:33 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:18:35 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:18:35 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:18:35 CreateContacts.py[line:20] INFO 开始添加联系人'name7@qq.com'
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:18:36 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:18:37 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:18:39 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:18:39 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:18:39 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'发送带附件的邮件'
+2018-11-06 22:18:39 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击首页'执行通过！
+2018-11-06 22:18:39 TestSendMailWithAttachment.py[line:110] INFO 步骤'判断"写信"按钮是否在页面可见'执行通过！
+2018-11-06 22:18:39 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击写信按钮'执行通过！
+2018-11-06 22:18:40 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入'执行通过！
+2018-11-06 22:18:46 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入主题'执行通过！
+2018-11-06 22:18:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待几秒'执行通过！
+2018-11-06 22:18:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入上传附件链接'执行通过！
+2018-11-06 22:18:54 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待几秒'执行通过！
+2018-11-06 22:18:54 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待附件上传完毕'执行通过！
+2018-11-06 22:18:54 TestSendMailWithAttachment.py[line:110] INFO 步骤'如果邮件正文的iframe框可见，然后进入该frame'执行通过！
+2018-11-06 22:18:54 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入邮件正文'执行通过！
+2018-11-06 22:18:54 TestSendMailWithAttachment.py[line:110] INFO 步骤'退出邮件正文的frame'执行通过！
+2018-11-06 22:18:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击邮件发送'执行通过！
+2018-11-06 22:18:58 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待发送成功'执行通过！
+2018-11-06 22:18:58 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否出现发送成功关键内容'执行通过！
+2018-11-06 22:18:58 TestSendMailWithAttachment.py[line:110] INFO 步骤'关闭浏览器'执行通过！
+2018-11-06 22:18:58 TestSendMailWithAttachment.py[line:122] INFO 共3 条用例，3条需要被执行，本次通过3条.
+2018-11-06 22:19:09 TestSendMailWithAttachment.py[line:110] INFO 步骤'关闭浏览器'执行通过！
+2018-11-06 22:19:09 TestSendMailWithAttachment.py[line:122] INFO 共3 条用例，3条需要被执行，本次通过2条.
+2018-11-06 22:41:34 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'登录126邮箱'
+2018-11-06 22:41:45 TestSendMailWithAttachment.py[line:110] INFO 步骤'打开浏览器'执行通过！
+2018-11-06 22:41:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'访问被测网站http://www.126.com'执行通过！
+2018-11-06 22:41:50 TestSendMailWithAttachment.py[line:110] INFO 步骤'最大化窗口'执行通过！
+2018-11-06 22:41:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待126邮箱登录加载完成'执行通过！
+2018-11-06 22:41:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否包含'执行通过！
+2018-11-06 22:41:56 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待id属性值为x-URS-ifrme的frame框的出现，然后进入该frame'执行通过！
+2018-11-06 22:41:56 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入登录用户名'执行通过！
+2018-11-06 22:41:56 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入密码'执行通过！
+2018-11-06 22:41:56 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击登录按钮'执行通过！
+2018-11-06 22:42:26 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-06 22:42:26 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-06 22:42:26 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言登录成功后页面是否包含标题'执行通过！
+2018-11-06 22:42:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待'执行通过！
+2018-11-06 22:42:31 TestSendMailWithAttachment.py[line:110] INFO 步骤'切回默认回话窗体'执行通过！
+2018-11-06 22:42:31 CreateContacts.py[line:20] INFO 开始添加联系人'name1@qq.com'
+2018-11-06 22:42:32 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:42:32 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:42:32 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:42:32 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:42:32 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:42:32 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:42:33 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:42:33 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:42:33 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:42:33 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:42:35 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:42:35 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:42:35 CreateContacts.py[line:20] INFO 开始添加联系人'name2@qq.com'
+2018-11-06 22:42:35 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:42:35 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:42:35 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:42:36 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:42:36 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:42:36 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:42:36 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:42:36 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:42:36 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:42:36 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:42:38 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:42:38 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:42:38 CreateContacts.py[line:20] INFO 开始添加联系人'name3@qq.com'
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:42:39 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:42:41 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:42:41 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:42:41 CreateContacts.py[line:20] INFO 开始添加联系人'name4@qq.com'
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:42:42 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:42:43 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:42:45 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:42:45 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:42:45 CreateContacts.py[line:20] INFO 开始添加联系人'name5@qq.com'
+2018-11-06 22:42:45 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:42:45 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:42:45 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:42:45 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:42:45 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:42:45 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:42:46 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:42:46 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:42:46 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:42:46 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:42:48 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:42:48 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:42:48 CreateContacts.py[line:20] INFO 开始添加联系人'name6@qq.com'
+2018-11-06 22:42:48 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:42:48 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:42:48 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:42:48 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:42:49 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:42:49 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:42:49 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:42:49 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:42:49 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:42:49 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:42:51 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:42:51 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:42:51 CreateContacts.py[line:20] INFO 开始添加联系人'name7@qq.com'
+2018-11-06 22:42:51 CreateContacts.py[line:53] INFO 执行步骤'点击“通讯录”'成功
+2018-11-06 22:42:51 CreateContacts.py[line:53] INFO 执行步骤'显式等待新建联系人可见'成功
+2018-11-06 22:42:52 CreateContacts.py[line:53] INFO 执行步骤'点击“新建联系人”'成功
+2018-11-06 22:42:52 CreateContacts.py[line:53] INFO 执行步骤'显式等待输入联系人姓名框是否在页面上可见'成功
+2018-11-06 22:42:52 CreateContacts.py[line:53] INFO 执行步骤'输入姓名'成功
+2018-11-06 22:42:52 CreateContacts.py[line:53] INFO 执行步骤'输入电子邮箱'成功
+2018-11-06 22:42:52 CreateContacts.py[line:53] INFO 执行步骤'设为星标联系人'成功
+2018-11-06 22:42:52 CreateContacts.py[line:53] INFO 执行步骤'输入手机号'成功
+2018-11-06 22:42:52 CreateContacts.py[line:53] INFO 执行步骤'输入备注'成功
+2018-11-06 22:42:52 CreateContacts.py[line:53] INFO 执行步骤'点击确认'成功
+2018-11-06 22:42:54 CreateContacts.py[line:53] INFO 执行步骤'等待'成功
+2018-11-06 22:42:54 CreateContacts.py[line:53] INFO 执行步骤'断言联系人是否成功添加'成功
+2018-11-06 22:42:54 TestSendMailWithAttachment.py[line:50] INFO 开始执行用例'发送带附件的邮件'
+2018-11-06 22:42:54 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击首页'执行通过！
+2018-11-06 22:42:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'判断"写信"按钮是否在页面可见'执行通过！
+2018-11-06 22:42:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击写信按钮'执行通过！
+2018-11-06 22:42:55 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入'执行通过！
+2018-11-06 22:42:58 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入主题'执行通过！
+2018-11-06 22:43:02 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待几秒'执行通过！
+2018-11-06 22:43:03 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入上传附件链接'执行通过！
+2018-11-06 22:43:07 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待几秒'执行通过！
+2018-11-06 22:43:07 TestSendMailWithAttachment.py[line:110] INFO 步骤'显式等待附件上传完毕'执行通过！
+2018-11-06 22:43:07 TestSendMailWithAttachment.py[line:110] INFO 步骤'如果邮件正文的iframe框可见，然后进入该frame'执行通过！
+2018-11-06 22:43:07 TestSendMailWithAttachment.py[line:110] INFO 步骤'输入邮件正文'执行通过！
+2018-11-06 22:43:07 TestSendMailWithAttachment.py[line:110] INFO 步骤'退出邮件正文的frame'执行通过！
+2018-11-06 22:43:07 TestSendMailWithAttachment.py[line:110] INFO 步骤'点击邮件发送'执行通过！
+2018-11-06 22:43:10 TestSendMailWithAttachment.py[line:110] INFO 步骤'等待发送成功'执行通过！
+2018-11-06 22:43:11 TestSendMailWithAttachment.py[line:110] INFO 步骤'断言是否出现发送成功关键内容'执行通过！
+2018-11-06 22:43:11 TestSendMailWithAttachment.py[line:110] INFO 步骤'关闭浏览器'执行通过！
+2018-11-06 22:43:12 TestSendMailWithAttachment.py[line:122] INFO 共3 条用例，3条需要被执行，本次通过3条.

@@ -1,0 +1,96 @@
+1541515294063	geckodriver	INFO	geckodriver 0.19.1
+1541515294076	geckodriver	INFO	Listening on 127.0.0.1:12234
+1541515294598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.GGTWyiIs2mGt"
+1541515295046	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1541515296501	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4276] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4276] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541515303299	Marionette	INFO	Listening on port 12239
+1541515303570	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541515305080	Marionette	DEBUG	Register listener.js for window 4294967297
+1541515305235	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1541515307910	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1541515307910	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1541515308526	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.126.com/"
+1541515310607	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.126.com/"
+1541515316481	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://s3.music.126.net/web/s/core_8417c1ccea4ac9b9315cae0b47036fd3.js?8417c1ccea4ac9b9315cae0b47036fd3, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_de5c306b3b46510bf655bea484dcb15f.js?de5c306b3b46510bf655bea484dcb15f, line 11: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer_de5c306b3b46510bf655bea484dcb15f.js?de5c306b3b46510bf655bea484dcb15f, line 11: unreachable code after return statement
+1541515352160	Marionette	DEBUG	Received DOM event "popstate" for "https://mail.126.com/js6/main.jsp?sid=gAGngBuifDBOhNKEjYiiICSCZwlCqWBK&df=mail126_letter#module=contact.ContactModule%7C%7B%7D"
+1541515352632	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515353015	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515353379	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515355698	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515355981	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515356374	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515356751	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515359060	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515359342	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515359794	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515362117	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515362393	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515362760	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515363095	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515365405	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515365678	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515366058	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515366367	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515368680	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515368959	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515369423	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515371733	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515372011	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515372391	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515372713	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515374872	Marionette	DEBUG	Received DOM event "popstate" for "https://mail.126.com/js6/main.jsp?sid=gAGngBuifDBOhNKEjYiiICSCZwlCqWBK&df=mail126_letter#module=welcome.WelcomeModule%7C%7B%7D"
+1541515375294	Marionette	DEBUG	Received DOM event "popstate" for "https://mail.126.com/js6/main.jsp?sid=gAGngBuifDBOhNKEjYiiICSCZwlCqWBK&df=mail126_letter#module=compose.ComposeModule%7C%7B%22type%22%3A%22compose%22%2C%22fullScreen%22%3Atrue%2C%22cid%22%3A%22c%3A1541515744731%22%7D"
+1541515375722	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515387827	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1541515391027	Marionette	INFO	New connections will no longer be accepted
+[Parent 4568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9716] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+onette	INFO	New connections will no longer be accepted
+/browser-content.js, line 1659: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 329: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 812: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[Child 9596] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150028,name=PBrowser::Msg_EnableDisableCommands) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x150015,name=PBrowser::Msg_NotifyIMEFocus) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://global/content/browser-child.js, line 125: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://global/content/browser-child.js, line 125: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://global/content/browser-child.js, line 125: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://global/content/browser-child.js, line 125: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
